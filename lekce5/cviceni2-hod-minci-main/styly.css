@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 60svh;
+	margin: 0;
+	padding: 1rem;
+}
+
+.mince {
+	filter: blur(0.375rem);
+}
+
+.mince__obrazek {
+	aspect-ratio: 1;
+	width: 131px;
+	margin-inline: auto;
+	position: relative;
+	transform-style: preserve-3d;
+}
+
+.mince__obrazek::before {
+	content: '';
+	position: absolute;
+	inset: auto 10% -0.5rem;
+	border-radius: 50%;
+	background-color: currentColor;
+	height: 1rem;
+	filter: blur(0.5rem);
+	opacity: 0.2;
+}
+
+.mince--orel,
+.mince--panna {
+	filter: none;
+}
+
+.mince__panna,
+.mince__orel {
+	position: absolute;
+	inset: 0;
+	backface-visibility: hidden;
+	border-radius: 50%;
+}
+
+.mince__panna {
+	background-image: url('obrazky/panna.png');
+}
+
+.mince__orel {
+	background-image: url('obrazky/orel.png');
+	transform: rotateY(-180deg);
+}
+
+.mince--orel .mince__obrazek {
+	transform: rotateY(180deg);
+}
+
+@keyframes flip {
+	from {
+		transform: rotateY(-8turn);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.mince--orel .mince__obrazek,
+	.mince--panna .mince__obrazek {
+		animation-name: flip;
+		animation-duration: 2s;
+	}
+}
+
+.vysledek {
+	font-size: 1.2em;
+	margin: 0;
+}
