@@ -2,9 +2,9 @@
 //a uložte si jej do proměnné bodyElement. 
 const bodyElement = document.querySelector("body")
 //Pomocí této proměnné nastavte barvu pozadí elementu na hodnotu #e9e9e9.
-bodyElement.style.backgroundColor = "#b9b9e9"
+bodyElement.style.backgroundColor = "#e9e9e9"
 // Do jiné proměnné vyberte element s třídou news 
-const news =document.querySelector(".news")
+const news = document.querySelector(".news")
 //a nastavte mu barvu pozadí na bílou a maximální šířku na 60rem.
 news.style.backgroundColor = "white"
 news.style.width ="60rem"
