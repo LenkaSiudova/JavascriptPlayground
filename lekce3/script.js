@@ -14,7 +14,7 @@ const age = Number(prompt("Zadejte věk.", "18"))
 //Květoslav Voňavý, věk: 67
 document.body.innerHTML += "<p>" + name +", věk:"+age+ "</p>";
 
-
+// ###############################################################################
 //Výplata jako stránka
 document.body.innerHTML += "<h2> Výplata jako stránka </h2>";
 //Vytvořte webovou stránku, která uživatele požádá o jeho hodinovou sazbu v korunách 
@@ -28,7 +28,7 @@ document.body.innerHTML += "<p> Tady je vaše výplata za 21 dní: " + salary + 
 //Nechte uživatele zadat nejen hodinovou sazbu, ale také počet hodin a dní v měsíci. 
 //Opět dejte pozor na správnou konverzi.
 
-
+// ###############################################################################
 //Příklady - Objekty
 document.body.innerHTML += "<h1> Objekty </h1>";
 //Realitka
@@ -80,7 +80,7 @@ document.body.innerHTML += "<p> Do separátních proměnných uložte město "+m
 apartment.status = "Taken"
 document.body.innerHTML += "<p> Stav: " + apartment.status + "</p>";
 
-
+// ###############################################################################
 //Knihovna
 document.body.innerHTML += "<h2> Knihovna </h2>";
 //V JavaScriptovém programu vytvořte objekt představující jednu knihu v knihovně.
@@ -110,7 +110,7 @@ const kniha2 = {
     vilain: "Lojza"
   },
 }
-
+// ###############################################################################
 //Očkování – objekty
 document.body.innerHTML += "<h2> Očkování – objekty </h2>";
 //Pokračujme v našem registračním systému na očkováni. Zatím se umíme uživatele zeptat na jméno a věk.
