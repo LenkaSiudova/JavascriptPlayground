@@ -1,4 +1,4 @@
-const pocetLekci = 5
+const pocetLekci = 6
 const pocetUkolu = 1
 
 for(let i = 1; i <= pocetLekci; i++){
