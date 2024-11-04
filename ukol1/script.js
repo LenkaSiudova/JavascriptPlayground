@@ -1,3 +1,7 @@
+const title="Úkol 1"
+document.body.innerHTML += `<h1>${title}</h1>`
+const htmlTitle = document.querySelector("title")
+htmlTitle.textContent = title
 // Úkol 01
 // FIT e-mail
 // Pokud se přihlásíte jako student například na Fakultu Informačních Technologí ČVUT, 
