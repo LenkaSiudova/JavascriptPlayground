@@ -1,4 +1,4 @@
-const pocetLekci = 7
+const pocetLekci = 8
 const pocetUkolu = 2
 
 function addXLinks(howMany, what)
@@ -8,7 +8,7 @@ function addXLinks(howMany, what)
     }
 }
 
-addXLinks(7,"lekce")
-addXLinks(2,"ukol")
+addXLinks(pocetLekci,"lekce")
+addXLinks(pocetUkolu,"ukol")
 
 document.body.innerHTML += `<p><br><a href="https://github.com/aellopos/Kurz-JS-1/tree/main/solution">Zadání</a></p>`

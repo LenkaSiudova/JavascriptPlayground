@@ -3,7 +3,7 @@ document.body.innerHTML += `<h1>${title}</h1>`
 const htmlTitle = document.querySelector("title")
 htmlTitle.textContent = title
 
-//code 
+//code  https://youtu.be/9M5_oXXLgwo 
 const pocetCviceni = 5
 for(let i = 1; i <= pocetCviceni; i++){
     document.body.innerHTML += `<h3><a href="cv${i}/index.html">Cvičení${i}</a></h3>`
