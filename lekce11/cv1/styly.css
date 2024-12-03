@@ -1,0 +1,20 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #3b007e;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card p {
+    margin: 8px 0;
+}
+
+br {
+	display: inline; /* Ensure br elements are displayed inline */
+}

@@ -1,5 +1,5 @@
-const pocetLekci = 9
-const pocetUkolu = 2
+const pocetLekci = 11
+const pocetUkolu = 3
 
 function addXLinks(howMany, what)
 {
