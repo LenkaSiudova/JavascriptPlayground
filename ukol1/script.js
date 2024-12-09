@@ -1,4 +1,4 @@
-const title="Úkol 1"
+const title="Úkol 1 du_pata_lekce"
 document.body.innerHTML += `<h1>${title}</h1>`
 const htmlTitle = document.querySelector("title")
 htmlTitle.textContent = title

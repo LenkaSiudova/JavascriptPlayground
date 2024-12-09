@@ -1,4 +1,4 @@
-const title="Ukol2 Catering"
+const title="Ukol2 Catering du_osma_lekce"
 document.body.innerHTML += `<h1>${title}</h1>`
 const htmlTitle = document.querySelector("title")
 htmlTitle.textContent = title
